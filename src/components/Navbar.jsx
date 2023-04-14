@@ -15,10 +15,10 @@ const Navbar = () => {
         </div>
         <div className='hidden md:flex'>
           <ul className='flex text-white items-center'>
-            <li>Platform</li>
-            <li>Developers</li>
-            <li>Community</li>
-            <li>About</li>
+            <li className=' hover:text-blue-500 cursor-pointer'>Platform</li>
+            <li className=' hover:text-blue-500 cursor-pointer'>Developers</li>
+            <li className=' hover:text-blue-500 cursor-pointer'>Community</li>
+            <li className=' hover:text-blue-500 cursor-pointer'>About</li>
             <button className='ml-4'>Use Defi</button>
           </ul>
         </div>
@@ -34,10 +34,10 @@ const Navbar = () => {
         <div className={nav ? 'w-full bg-black text-white absolute top-[90px] left-0 flex justify-center text-center' : 
     'absolute left-[-100%]'}>
           <ul>
-            <li className='text-2xl'>Platform</li>
-            <li className='text-2xl'>Developers</li>
-            <li className='text-2xl'>Community</li>
-            <li className='text-2xl'>About</li>
+            <li className='text-2xl hover:text-blue-500 cursor-pointer'>Platform</li>
+            <li className='text-2xl hover:text-blue-500 cursor-pointer'>Developers</li>
+            <li className='text-2xl hover:text-blue-500 cursor-pointer'>Community</li>
+            <li className='text-2xl hover:text-blue-500 cursor-pointer'>About</li>
             <button className='m-8'>Use Defi</button>
           </ul>
         </div>
